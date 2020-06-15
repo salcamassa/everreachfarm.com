@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),r=t.n(n),c=t("7vrA"),l=t("3Z9Z"),o=t("JI6e"),s=t("Bl7J"),m=t("vrFN");a.default=function(){return r.a.createElement(s.a,{pageInfo:{pageName:"index"}},r.a.createElement(m.a,{title:"Home",keywords:["gatsby","react","bootstrap"]}),r.a.createElement(c.a,{className:"text-center width-50 my-5"},r.a.createElement(l.a,null,r.a.createElement(o.a,null,"hey"))))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-e8fe4b78bee4b5771375.js.map
