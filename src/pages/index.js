@@ -11,8 +11,8 @@ const IndexPage = () => (
     <Image src="medleyZoomed.jpg" className="round-edges full-width-image" />
     <Row className="row row-align-center align-center">
       <Col className="col-md-8">
-        <h2 class="featurette-heading">The Mission</h2>
-        <p class="lead"> of Ever Reach Farm is to provide a place where life grows, nourishment is shared, and the community is valued. Through caring for the environment and its careful balance, we also care for the people who inhabit it and reap its bountiful harvest. We believe the simple act of growing, cooking, and sharing with others can bring us together in ways unimaginable. </p>
+        <h2 class="featurette-heading">Our Mission</h2>
+        <p class="lead">to provide a place where life grows, nourishment is shared, and the community is valued. Through caring for the environment and its careful balance, we also care for the people who inhabit it and reap its bountiful harvest. We believe the simple act of growing, cooking, and sharing with others can bring us together in ways unimaginable. </p>
       </Col>
       <Col className="col-md-4">
         <Image src="farmbg.jpeg" className="round-edges" />
