@@ -9,10 +9,10 @@ body {
     font-family: 'Lora';
 }
 
-h1,h2 {
-    font-family: 'Bree Serif' !important;
+// h1,h2 {
+//     font-family: 'Bree Serif' !important;
     
-}
+// }//
 .hero {
     position: relative; 
     height: 100vh;
@@ -54,3 +54,45 @@ h1,h2 {
 .round-edges {
     border-radius: 5px;
 }
+
+.nav-menu{
+    list-style: none;
+    padding-inline-start: 0.5px;
+    li {
+        display: inline-block;
+        margin: 1rem;
+        font-size: 1.25rem;
+        cursor: pointer;
+        border-bottom: 2.5px solid transparent;
+        color: black;
+    }
+
+    li:hover {
+      border-bottom-color:#a68243;
+    }
+}
+
+.header-icon {
+    margin: .5rem;
+    &:nth-child(2){
+        margin-right: 1rem;
+    }
+    font-size: 1.25rem;
+    a {
+        color: black;
+
+    }
+}
+.header-icon a:hover {
+    color: #a68243;
+    cursor: pointer;
+}
+
+.max-960 {
+  max-width: 960px;
+}
+
+.full-width {
+    max-width: unset;
+}
+

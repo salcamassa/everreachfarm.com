@@ -27,23 +27,11 @@ const Layout = ({ children, pageInfo }) => (
     `}
     render={data => (
       <>
-        <Container fluid className="px-0 main light-bg">
-          {/* <Navbar pageInfo={pageInfo} /> */}
-          <Row noGutters>
-            <Col>
-              <Container fluid className="px-0">
-                <main>{children}</main>
-              </Container>
-            </Col>
-          </Row>
+      <Header></Header>
+        <Container fluid className="main">
+          <main>{children}</main>
         </Container>
-        {/* <Container fluid className="px-0">
-          <Row noGutters>
-            <Col className="footer-col">
-                <Footer></Footer>
-            </Col>
-          </Row>
-        </Container> */}
+        <Footer></Footer>
       </>
     )}
   />

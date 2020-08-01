@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import mainLogo from "../images/main_logo.png"
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
 
 const CustomNavbar = ({ pageInfo }) => {
@@ -11,12 +10,12 @@ const CustomNavbar = ({ pageInfo }) => {
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand href="#home">
-            <img
-              src={mainLogo}
+            {/* <img
+              src={}
               className="d-inline-block align-top"
               height="100"
               alt="logo"
-            />
+            /> */}
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

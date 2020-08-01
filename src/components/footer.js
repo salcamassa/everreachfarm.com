@@ -9,17 +9,17 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaSteam } from 'react-i
 
 const Footer = () => (
   <footer>
-    <Container className="mx-5">
-      <Row className="align-center mx-5">
+    <Container>
+      <Row className="align-items-center">
         <Col className="col-auto">
           <img 
-            className="d-inline-block align-top"
+            className="d-inline-block"
             height="100"
             alt="logo" 
             src={monogramLogo}/>
         </Col>
         <Col>
-          <div className="d-flex mt-3 text-center">
+          <div className="d-flex text-center">
             <div className="nav-link nav-border">
               <span>CSA</span>
             </div>

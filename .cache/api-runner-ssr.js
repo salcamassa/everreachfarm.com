@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/salcamassa/Projects/everreachfarm.com/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"everreachfarm.com","short_name":"ever-reach-farm","start_url":"/","background_color":"#20232a","theme_color":"#20232a","display":"minimal-ui","icon":"src/images/monogram.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"41df300758d4217a1b364b350955da70"},
+      options: {"plugins":[],"name":"everreachfarm.com","short_name":"ever-reach-farm","start_url":"/","background_color":"#20232a","theme_color":"#20232a","display":"minimal-ui","icon":"src/images/monogram.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"1818c41da7e20803473e8a90213f8a15"},
     },{
       plugin: require('/Users/salcamassa/Projects/everreachfarm.com/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Bree Serif","Lora"],"display":"swap"},
