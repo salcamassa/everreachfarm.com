@@ -1,10 +1,6 @@
 {
     "data": [
         {
-            "item": "Beets",
-            "imageSrc": "beets.jpeg"
-        },
-        {
             "item": "Beans",
             "imageSrc": "beans.JPG"
         },
@@ -17,8 +13,21 @@
             "imageSrc": "rainbow_carrots.jpg"
         },
         {
-            "item": "Tomatotes",
+            "item": "Cherry Tomatotes",
             "imageSrc": "cherryToms.jpg"
+        },
+        {
+            "item": "Lettuce",
+            "imageSrc":"lettuce.jpg"
+        },
+        {
+            "item": "Radishes",
+            "imageSrc": "radishes.jpeg"
+        },
+        {
+            "item": "Turnips",
+            "imageSrc": "turnips.jpg"
         }
+
     ]
 }
