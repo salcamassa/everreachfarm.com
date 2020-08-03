@@ -1,33 +1,32 @@
 {
-    "data": [
-        {
-            "item": "Beans",
-            "imageSrc": "beans.JPG"
-        },
-        {
-            "item": "Blueberries",
-            "imageSrc": "blueberries.JPG"
-        },
-        {
-            "item": "Carrots",
-            "imageSrc": "rainbow_carrots.jpg"
-        },
-        {
-            "item": "Cherry Tomatotes",
-            "imageSrc": "cherryToms.jpg"
-        },
-        {
-            "item": "Lettuce",
-            "imageSrc":"lettuce.jpg"
-        },
-        {
-            "item": "Radishes",
-            "imageSrc": "radishes.jpeg"
-        },
-        {
-            "item": "Turnips",
-            "imageSrc": "turnips.jpg"
-        }
-
-    ]
+  "data": [
+    {
+      "item": "Beans",
+      "imageSrc": "beans.JPG"
+    },
+    {
+      "item": "Blueberries",
+      "imageSrc": "blueberries.JPG"
+    },
+    {
+      "item": "Carrots",
+      "imageSrc": "rainbow_carrots.jpg"
+    },
+    {
+      "item": "Cherry Tomatotes",
+      "imageSrc": "cherryToms.jpg"
+    },
+    {
+      "item": "Lettuce",
+      "imageSrc": "lettuce.jpg"
+    },
+    {
+      "item": "Radishes",
+      "imageSrc": "radishes.jpeg"
+    },
+    {
+      "item": "Turnips",
+      "imageSrc": "turnips.jpg"
+    }
+  ]
 }
