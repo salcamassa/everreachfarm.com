@@ -1,47 +1,51 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import MainLogo from "../images/mainLogo.png"
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaSteam } from 'react-icons/fa';
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+import MainLogo from "../images/mainLogo.png";
 
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="text-center py-3">
-        <Link to="/">
-          <img
-            src={MainLogo}
-            className=""
-            height="200"
-            alt="everreachlogo" />
-        </Link>
-      </div>
+
     <div
-      className="d-flex justify-content-between"
+      className="header-container d-flex"
       style={{
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
       }}>
 
+      <div class="header-links d-flex align-items-center p-2 width-33">
+        <ul className="nav-menu">
+          <Link to="/growing">
+            <li>
+              What's Growing
+          </li>
+          </Link>
+          <Link to="/growing">
+            <li>
+              Prepared Foods
+          </li>
+          </Link>
+        </ul>
+      </div>
+      <div className="text-center py-3">
+        <Link to="/">
+          <img
+            src={MainLogo}
+            className="header-logo"
+            height="175"
+            alt="everreachlogo" />
+        </Link>
+      </div>
 
-
-      <div class="mt-auto p-2 text-left">
+      <div class="header-links d-flex align-items-center justify-content-end p-2 width-33">
         <ul className="nav-menu">
           <Link to="/about">
             <li>
               CSA
               </li>
           </Link>
-          <Link to="/growing">
-            <li>
-              What's Growing
-          </li>
-          </Link>
-        </ul>
-      </div>
-      
-      <div class=" d-flex align-items-center p-2">
-        <ul className="nav-menu">
           <Link to="/about">
             <li>
               About Us
@@ -52,17 +56,17 @@ const Header = ({ siteTitle }) => (
               Contact
           </li>
           </Link>
+          <span className="header-icon">
+            <a href='https://www.instagram.com/everreachfarm/' target="_blank">
+              <FaInstagram />
+            </a>
+          </span>
+          <span className="header-icon">
+            <a href='https://www.facebook.com/everreachfarm' target="_blank">
+              <FaFacebookF />
+            </a>
+          </span>
         </ul>
-        <span className="header-icon">
-          <a href='https://www.instagram.com/everreachfarm/' target="_blank">
-            <FaInstagram />
-          </a>
-        </span>
-        <span className="header-icon">
-          <a href='https://www.facebook.com/everreachfarm' target="_blank">
-            <FaFacebookF />
-          </a>
-        </span>
       </div>
     </div>
 

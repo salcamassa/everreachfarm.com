@@ -10,19 +10,19 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`farm`]} />
     <Image src="medleyZoomed.jpg" className="round-edges full-width-image" />
     <Row className="row row-align-center align-center">
-      <Col className="col-md-8">
+      <Col lg="8" md="6" sm="12" xs="12">
         <h2 class="featurette-heading">Our Mission</h2>
         <p class="lead">to provide a place where life grows, nourishment is shared, and the community is valued. Through caring for the environment and its careful balance, we also care for the people who inhabit it and reap its bountiful harvest. We believe the simple act of growing, cooking, and sharing with others can bring us together in ways unimaginable. </p>
       </Col>
-      <Col className="col-md-4">
+      <Col lg="4" md="6" sm="12" xs="12">
         <Image src="farmbg.jpeg" className="round-edges" />
       </Col>
     </Row>
     <Row className="row row-align-center align-center">
-      <Col className="col-md-4">
+      <Col lg="4" md="6" sm="12" xs="12">
         <Image src="f4.jpeg" className="round-edges" />
       </Col>
-      <Col className="col-md-8">
+      <Col lg="8" md="6" sm="12" xs="12">
         <p class="lead">Dedicated to serving high-quality, affordably-priced vegetables and value-added products to the local community</p>
       </Col>
 

@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/everreachfarm.com",
   siteMetadata: {
     title: `Ever Reach Farm`,
   },

@@ -12,7 +12,7 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1 className="text-center"><b>About Us</b></h1>
     <Row className="pt-5 px-3">
-      <Col lg="4" md="4" sm="6" xs="12">
+      <Col lg="6" md="6" sm="12" xs="12">
         <Image src="ginger-turmeric.jpg" className="round-edges growing-img" />
       </Col>
       <Col>
