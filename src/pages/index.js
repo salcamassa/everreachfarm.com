@@ -3,40 +3,44 @@ import { Col, Container, Row } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Image from "../components/image"
+import InstagramContainer from "../components/instagramContainer"
 
 
-const IndexPage = () => (
+const IndexPage = ({ data: { allInstaNode } }) => (
   <Layout pageInfo={{ pageName: "home" }}>
     <SEO title="Home" keywords={[`farm`]} />
-    <Image src="medleyZoomed.jpg" className="round-edges full-width-image" />
-    <Row className="row row-align-center align-center">
-      <Col lg="8" md="6" sm="12" xs="12">
-        <h2 class="featurette-heading">Our Mission</h2>
-        <p class="lead">to provide a place where life grows, nourishment is shared, and the community is valued. Through caring for the environment and its careful balance, we also care for the people who inhabit it and reap its bountiful harvest. We believe the simple act of growing, cooking, and sharing with others can bring us together in ways unimaginable. </p>
-      </Col>
-      <Col lg="4" md="6" sm="12" xs="12">
-        <Image src="farmbg.jpeg" className="round-edges" />
-      </Col>
-    </Row>
-    <Row className="row row-align-center align-center">
-      <Col lg="4" md="6" sm="12" xs="12">
-        <Image src="f4.jpeg" className="round-edges" />
-      </Col>
-      <Col lg="8" md="6" sm="12" xs="12">
-        <p class="lead">Dedicated to serving high-quality, affordably-priced vegetables and value-added products to the local community</p>
-      </Col>
-
-    </Row>
-    {/* <Row className="row row-align-center align-center">
-      <Col className="col-md-8">
-        <h2 class="featurette-heading">Grown with Care</h2>
-        <p class="lead">We utilize a no-till small scale methodology of growing which gives our produce the nutrients they naturally expect and love.</p>
-      </Col>
-      <Col className="col-md-4">
-        <Image src="broccoli.jpeg" className="round-edges" />
-      </Col>
-    </Row> */}
+    {/* <Image src="medleyZoomed.jpg" className="round-edges full-width-image" /> */}
+    <InstagramContainer nodes={allInstaNode} />
+    <div>
+      <h3 className="see-more text-center" >
+        <a  href='https://www.instagram.com/everreachfarm/' target="_blank">See More</a>
+      </h3>
+    </div>
   </Layout >
 )
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allInstaNode(filter: { username: { eq: "everreachfarm" } }) {
+      edges {
+        node {
+          id
+          username
+          likes
+          caption
+          comments
+          localFile {
+            childImageSharp {
+              fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
 
 export default IndexPage
