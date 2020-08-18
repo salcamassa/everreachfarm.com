@@ -43,11 +43,6 @@ const Header = ({ siteTitle }) => (
         <ul className="nav-menu">
           <Link to="/about">
             <li>
-              CSA
-              </li>
-          </Link>
-          <Link to="/about">
-            <li>
               About Us
               </li>
           </Link>
